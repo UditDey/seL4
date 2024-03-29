@@ -16,6 +16,8 @@ The seL4 microkernel
 [![RefMan](https://github.com/seL4/seL4/actions/workflows/manual.yml/badge.svg)](https://github.com/seL4/seL4/actions/workflows/manual.yml)
 [![XML](https://github.com/seL4/seL4/actions/workflows/xml_lint.yml/badge.svg)](https://github.com/seL4/seL4/actions/workflows/xml_lint.yml)
 
+## This is a fork of `seL4` for use by [kasumi](https://github.com/UditDey/kasumi)
+
 This project contains the source code of seL4 microkernel.
 
 For details about the seL4 microkernel, including details about its formal

@@ -170,17 +170,15 @@ set(
 include(${KERNEL_FLAGS_PATH})
 
 add_compile_options(
-    -std=c99
+    -std=gnu99
+    --param=min-pagesize=0
     #-----------------------------------
     # Configure warnings
     #-----------------------------------
     -Wall
     -Werror
     -Wstrict-prototypes
-    -Wmissing-prototypes
     -Wnested-externs
-    -Wmissing-declarations
-    -Wundef
     -Wpointer-arith
     -Wno-nonnull
     #-----------------------------------
